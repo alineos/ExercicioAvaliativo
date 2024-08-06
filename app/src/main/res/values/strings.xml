@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">CalculaMedia</string>
+    <string name="result">Resultado</string>
+    <string name="avarage">Tipos de Medias</string>
+    <string name="help">Ajuda</string>
+    <string name="calculate">Calcular</string>
+    <string name="add_term">Adicionar Termo</string>
+    <string name="term">Termo</string>
+    <string name="weight">Peso</string>
+    <string name="new_term">Novo Termo</string>
+    <string name="save">Salvar</string>
+    <string name="cancelar">Cancelar</string>
+
+
+
+    <string name="aritmetica">Média Aritmética</string>
+    <string name="ponderada">Média Ponderada </string>
+    <string name="harmonica">Média Harmônica </string>
+    <string name="aritmetica_desc"> A média aritmética simples é utilizada em casos nos quais o rol numérico não apresenta nenhuma repetição. Para calcular o valor da média aritmética simples, devemos realizar o somatório de todos os elementos do rol e dividir essa soma pela quantidade de elementos.</string>
+    <string name="harmonica_desc">A escolha pelo uso da média harmônica para representação da média de um conjunto está ligada a situações que envolvem grandezas inversamente proporcionais, por exemplo a velocidade média, a vazão da água, a densidade, entre outras aplicações na física e na química. Algumas fórmulas da física, na verdade, surgem da média harmônica. </string>
+    <string name="ponderada_desc">É interpretada como um caso de média aritmética em que o rol apresenta elementos repetidos. A quantidade de vezes que um elemento repete-se é chamado de peso.[...] A média ponderada então é calculada com base na soma dos produtos entre o número do rol e seu respectivo peso e no resultado dessa soma divido pela soma dos pesos</string>
+
+
+</resources>

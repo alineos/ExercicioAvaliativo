@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">1CalculaMedia </string>
+    <string name="result">Result </string>
+    <string name="avarage">Types of Averages </string>
+    <string name="help">Help </string>
+    <string name="calculate">Calculate </string>
+    <string name="add_term">Add Term </string>
+    <string name="term">Term </string>
+    <string name="weight">Weight </string>
+    <string name="new_term">New Term </string>
+    <string name="save">Save </string>
+    <string name="cancelar">Cancel </string>
+    <string name="aritmetica"> Arithmetic Mean </string>
+    <string name="ponderada">  Weighted Mean </string>
+    <string name="harmonica">  Harmonic Mean </string>
+    <string name="aritmetica_desc">The simple arithmetic mean is used in cases where the numerical list does not present any repetition. To calculate the value of the simple arithmetic mean, we must add up all the elements of the list and divide this sum by the number of elements. </string>
+    <string name="harmonica_desc"> The choice to use the harmonic mean to represent the mean of a set is linked to situations involving inversely proportional quantities, for example average speed, water flow, density, among other applications in physics and chemistry. Some physics formulas, in fact, arise from the harmonic mean. </string>
+    <string name="ponderada_desc"> It is interpreted as a case of arithmetic mean in which the list presents repeated elements. The number of times an element repeats itself is called weight.[...] The weighted average is then calculated based on the sum of the products between the list number and its respective weight and the result of this sum divided by the sum of the weights.</string>
+
+
+</resources>

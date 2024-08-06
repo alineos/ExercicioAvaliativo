@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="medias">
+        <item>@string/aritmetica</item>
+        <item>@string/harmonica</item>
+        <item>@string/ponderada</item>
+    </string-array>
+</resources>

@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".view.AjudaActivity">
+
+    <TextView
+        android:id="@+id/titulo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/help"
+        android:textAllCaps="true"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/aritimetica"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textSize="14sp"
+        android:layout_marginTop="48dp"
+        android:layout_marginLeft="10dp"
+        android:text="@string/aritmetica"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/titulo" />
+    <TextView
+        android:id="@+id/aritimetica_desc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/aritmetica_desc"
+        android:textSize="12sp"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="8dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/aritimetica" />
+
+    <ImageView
+        android:id="@+id/img_aritimetica"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_marginEnd="150dp"
+        android:layout_marginTop="30dp"
+        android:src="@drawable/ic_video"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/aritimetica"
+        app:layout_constraintTop_toBottomOf="@+id/titulo"
+        />
+
+    <TextView
+        android:id="@+id/harmonica"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textSize="14sp"
+        android:layout_marginTop="48dp"
+        android:layout_marginLeft="10dp"
+        android:text="@string/harmonica"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/aritimetica_desc" />
+    <TextView
+        android:id="@+id/harmonica_desc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/harmonica_desc"
+        android:textSize="12sp"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="8dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/harmonica" />
+
+
+    <ImageView
+        android:id="@+id/img_harmonica"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_marginEnd="150dp"
+        android:layout_marginTop="30dp"
+        android:src="@drawable/ic_video"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/harmonica"
+        app:layout_constraintTop_toBottomOf="@+id/aritimetica_desc"
+        />
+
+    <TextView
+        android:id="@+id/ponderada"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textSize="14sp"
+        android:layout_marginTop="48dp"
+        android:layout_marginLeft="10dp"
+        android:text="@string/ponderada"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/harmonica_desc" />
+    <TextView
+        android:id="@+id/ponderada_desc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/ponderada_desc"
+        android:textSize="12sp"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="8dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ponderada" />
+
+    <ImageView
+        android:id="@+id/img_ponderada"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_marginEnd="150dp"
+        android:layout_marginTop="30dp"
+        android:src="@drawable/ic_video"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/ponderada"
+        app:layout_constraintTop_toBottomOf="@+id/harmonica_desc"
+        />
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
